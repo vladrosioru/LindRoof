@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="pictureBox1.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAANgwAAAJCTTYMAAAAAAAA
+NgAAACgAAAAfAAAAIAAAAAEAGAAAAAAAAAAAAMQOAADEDgAAAAAAAAAAAAD////////////Xx8e5
+mJa5mZe7mpq7mpq7m5q7m5q7mpq7m5q7m5q7m5q7mpq7m5q7m5q7mpq7mpq7m5q7m5q7mpq7mpq7
+m5q7mpq7mpq6mpq2mZq9pKXg2tv///8AAAD///////+2p6ZsODpgLzFgMDJgMDJgMDJgMDJgMDJg
+MDJgMDJfMDJfMDJfMDJfMDJfMDJgMDJgMDJgMDJgMDJgMDJgMDJgMDJgMDFdMjVhLi9yFA5qHRqH
+VFPf2dkAAAD///88w+QAsNoCpcsBpM0Aps0ApM0ApM0ApM0ApM0Aps0ApM0Apc4Aps8Ap88Apc4A
+pc4Aps0Aps0ApM0ApM0Aps0ApM0ApM0Apc4AqtYCst02a4FzEgxpIB21mZoAAABoz+kArdUAsdoA
+tN4As98As98As98As98As98As98As98AteEAuuUAyvoAy/wAwfEAtuIAtOAAs98As98As98As98A
+s98As94AtOAAuOMAwO8Az/9RR1BvFxGri4sAAAApxucAtd4AuuUBxPEAx/YBx/UByfUByfUBx/UB
+yfUByvcA0f8A2f8haYNWYXc9l7MA0v8Ay/kAyfYByfUBx/UByfUByPUAyPYAyPcAxPEAwe8A0/8z
+doxxDwbNursAAABg0usAuOIAwOsE1P8E2f8B1v8B1v8B1v8B1v8B1v8B2f8A5/8YOk0XAABjBRf/
+sr5PnbgA5f8A1/8B1v8B1v8B1v8B1f8B1v8M4P8H1f8AyPUA1/9OTliIQTv///8AAACw2+UAveUA
+wekH0fwN4/8A1v8A0/8A1P8A1P8A1P8A2P8A4P8EAAATAABhGjFvCx5dYn0A7f8A1v8A1P8A1P8A
+0/8A0/8F2v8d8P8G1vwAzvwAx/JuGRW2mpr///8AAAD///8eyuwAwOYAyfEQ4/8G3f8A1f8A1P8A
+1v8A1v8A2v8A6P8RGSQAAAAZAAAyAAAhXXkA8P8A1/8A1v8A1f8A1f8A1f8U6f8b7v8AzPkA4f82
+dISHMi3g2tv///8AAAD///+L2ugAv+QAxuwK2/4R6P8A2f8A1/8A1/8A2P8A2v8A6v8GqMkRAAAH
+AAAgGScA1fwA4f8A2f8A2P8A1/8A1f8D3P8l/P8K3/8A0/8AzvVjLS2wjYn///////8AAAD/////
+//8Fx+sAxecC0PcU7P8J4/8A2f8A2f8A2v8A2/8A3v8A7P8A7f8A9f8A6/8A6P8A3P8A2v8A2/8A
+2f8A1/8Z8v8l/f8A1P0A4v8piZ6HLSXi3d7///////8AAAD///////+K3OoAx+gAyu0M3/4S7v8B
+3f8A2/8A2/8A3P8A3f8A4f8A5P8Sn78A5f8A4f8A3P8A2/8A3f8A2P8G4v8p//8L5P8A1vwA3f9k
+KSi5lZX///////////8AAAD///////////8Z0e0AyegA0vMR7f8J5/8A3f8A3f8A3v8A3/8A5f8D
+1/hDEB0A3/8A6P8A3v8A3f8A3f8A3P8Z9/8d+f8A1PoA6P8xgJCJNS/h3N3///////////8AAAD/
+//////////+O3eoAyuYAzewH4fwR8f8B4f8A3/8A3/8A4f8A8f8Mq8ZLAAcCyuwA7/8A4f8A3/8A
+3f8H5v8k//8G4v8A3f8A1fNiLCu3kpL///////////////8AAAD///////////////8P0+wAy+cA
+1fIQ7v8I6v8A4v8A4/8A5P8A/v8de4xqAAAGrs4A+f8A5P8A4f8A4f8W9/8b+f8A1/kA6f8tiZaF
+Kybi3d7///////////////8AAAD///////////////+O3ukAyuQAz+kI5fwN8v8A5P8A5f8A6P8A
+//8eRFh8AAAWkaoA+v8A5v8A4/8E5/8e//8I6P4A2/gA4/9lJySyjo7///////////////////8A
+AAD///////////////////8T0+kAzuYB2fMQ9f8F6v8A5v8A8f8A6P8kFye6W2kyUGQA9f8A6f8A
+5P8O9P8e//8A3voA7/8uiZWFKyTe1tb///////////////////8AAAD///////////////////9+
+3+kAzuQA1e0N7v8N9v8A6P8A/f8AvNAiAACSQFBOMUQA+v8A7f8A6f8e//8T9f8A4v8A4flgMjKv
+iIf///////////////////////8AAAD///////////////////////8E1eoA1OgE5fgT+/8D8P8A
+//8Bo7QtAABoITdPJz0CzOMA9/8M9/8l//8A5/8A8f8plJ+HHBrd19j/////////////////////
+//8AAAD///////////////////////9+4eoA0uUA2/EO9v8N/v8A//8MTlovAABKCB5HAhoTjqUA
+//8e//8V+f8A5fsA8v9iMC+vgn////////////////////////////8AAAD/////////////////
+//////////8L2esA2OgD6PoT//8C//8GChAdAAA+ABVBAAAiVW0D//8k//8A7f8A9/8mm6WFHxzZ
+0dL///////////////////////////8AAAD///////////////////////////9u4+sA1+YA4PAO
+//8L//8BAAAUAABEABhDAAArPFAV//8W//8A7P8A8/9ZP0Gud3b/////////////////////////
+//////8AAAD///////////////////////////////8A3ekA3eoD8P8T//8GAAAJAAAwAAoxAAAu
+TVwe//8A8/8A+v8gqLKAFBHZ0dL///////////////////////////////8AAAD/////////////
+//////////////////9v5eoA2uYA5vQO//8RpqcBAAAAAAAIAAAj4uMT//8A8PwA+/9YQECncW//
+//////////////////////////////////8AAAD////////////////////////////////g3+AB
+4uoA4OkD9f8T//8D9/4CuMMK//8j//8B+P8A//8dr7R/FxPVycr/////////////////////////
+//////////8AAAD///////////////////////////////////9k5uwA3+cA6PEO//8J//8A//8c
+//8W//8A9P8A/v9USEmnamj///////////////////////////////////////8AAAD/////////
+//////////////////////////////8A4+kA5OkE9PkR//8J//8o//8A+P4A//8Yur93DgrWysv/
+//////////////////////////////////////8AAAD/////////////////////////////////
+//////9k6OwA4eUA7fIY//8x//8h//8A9foA//9USkqfZWP/////////////////////////////
+//////////////8AAAD////////////////////////////////////////W4OEA5+oA6esX/f5o
+//8N/v8A//8VxcZ7EhHSwsP///////////////////////////////////////////8AAAD/////
+//////////////////////////////////////9Z6+wA6uoD+v0s//8A//8A//9PU1GygoL/////
+//////////////////////////////////////////8AAAD/////////////////////////////
+///////////////f4OEA8/MA9/gA//8A//8jysq5j5D/////////////////////////////////
+//////////////////8AAAD////////////////////////////////////////////////C5OQP
+/f0H//8+9/fd2Nn///////////////////////////////////////////////////////8AAAD/
+///////////////////////////////////////////////////Y4eKh6ur/////////////////
+//////////////////////////////////////////////8AAAAL</value></data></root>

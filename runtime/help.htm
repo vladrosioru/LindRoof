@@ -1,0 +1,636 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Lindroof - Program de Clacul Acoperis </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style5 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style7 {
+	color: #000000;
+	font-style: italic;
+}
+.style8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.style18 {font-size: 12px}
+.style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+}
+.style20 {font-family: Arial, Helvetica, sans-serif}
+.style22 {font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+.style24 {color: #0066FF}
+.style25 {color: #FF0000}
+.style26 {font-size: 10px}
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.style27 {
+	font-size: 9px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.style29 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 9px; }
+.style35 {font-size: 8px}
+-->
+</style>
+</head>
+
+<body>
+<div align="center"><img src="help/linie%20albastra.gif" width="745" height="8"></div>
+<div align="center">
+  <TABLE width=744 border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff>
+    <!--DWLayoutTable-->
+    <TBODY>
+      <TR>
+        <TD vAlign=top width=260 rowSpan=3><img src="help/lindroof%20mic.JPG" width="255" height="37"></TD>
+        <TD bordercolor="#00CCFF" bgcolor="#CCCCCC"><div align="left"><span class="style27">CALCUL ACOPERIS </span></div></TD>
+        <TD width=59 rowSpan=2 align=right vAlign=bottom bordercolor="#CCCCCC" bgcolor="#33CCFF"><div align="center" class="style22"><strong><a href="file:///C|/Documents%20and%20Settings/Luca%20Tiberiu/Desktop/Help%20LindRoof/LindRoof%20program%20de%20calcul%20acoperis.htm">NOUTATI</a></strong></div></TD>
+        <TD width=67 rowSpan=2 align=right vAlign=bottom bordercolor="#00CCFF" bgcolor="#CCCCCC"><div align="center" class="style22"><strong><a href="http://www.lindab.ro" target="_blank">UPDATE</a></strong></div></TD>
+        <TD width=55 rowSpan=2 align=right vAlign=bottom bordercolor="#CCCCCC" bgcolor="#33CCFF"><div align="center" class="style22"><strong>FIRMA</strong></div></TD>
+        <TD width="77" rowSpan=2 align=right vAlign=bottom bordercolor="#00CCFF" bgcolor="#CCCCCC"><div align="center" class="style22"><strong>UTILITARE</strong></div></TD>
+      </TR>
+      <TR>
+        <TD align=left vAlign=bottom bordercolor="#CCCCCC" bgcolor="#00CCFF"><div align="left"><span class="style29">Versiune 1.0</span></div></TD>
+      </TR>
+      <TR>
+        <TD 
+    height=15 colSpan=5 align=right vAlign=center bordercolor="#00CCFF" bgcolor="#CCCCCC" class="style27 style35">EXEMPLU CALCUL ACOPERIS </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=747 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR bordercolor="#000000">
+        <TD height=8 colSpan=3 vAlign=top bgcolor="#00CCFF"><div align="center"><span class="style5"> Lindroof versiunea 1.0. - <span class="coolText">Optimizare calcul acoperis asistata</span> pe calculator </span></div></TD>
+      </TR>
+      <TR bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+        <TD height=9 colSpan=3 vAlign=top>&nbsp;</TD>
+      </TR>
+      <TR>
+        <TD width=298 height=91 vAlign=top bordercolor="#00CCFF" bgcolor="#FFFFFF"><img src="help/F%20I%20N%20A%20L.jpg" width="318" height="199"></TD>
+        <TD width="443" colSpan=2 vAlign=top class=coolTextCtrl>          <P class=coolText align=justify><B><BR>
+              <img src="help/patratelul.gif" width="13" height="12"> <span class="style6"><span class="style24">LindRoof</span> este conceput special pentru proiectanti si desenatori.</span></B></P>
+          <P class=coolText align=justify><span class="style6"><B> <B><img src="help/patratelul.gif" width="13" height="12"></B><span class="style24"> LindRoof</span> este programul ideal pentru   cei ce  doresc un program de calcul optimizare acoperis dupa planurilor de executie.</B></span></P>
+          <P class=coolText align=justify><span class="style6"><B> </B></span><BR>
+            <I></I></P></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <p><img src="file:///C|/Documents%20and%20Settings/Luca%20Tiberiu/Desktop/Help%20LindRoof/help/linie%20rosie.GIF" width="743" height="8"> </p>
+  <TABLE width=747 border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff>
+    <!--Advance Beton : integrat complet sub AutoCAD&reg; si usor de utilizat-->
+    <TBODY>
+      <TR bordercolor="#000000">
+        <TD colspan="2" bgcolor="#00CCFF"><div align="left"><span class="style8">100% dedicat calcului de acoperis cu tabla Lindab ( Nordic 400 ) </span></div></TD>
+      </TR>
+      <TR>
+        <TD vAlign=top 
+    background="Advance Beton  program de proiectare constructii beton armat_files/linecont.gif" 
+    colSpan=2 height=1><IMG height=1 
+      src="Advance Beton  program de proiectare constructii beton armat_files/linecont.gif" 
+      width=1></TD>
+      </TR>
+      <TR>
+        <TD width="459" height=193 vAlign=center class=coolText>
+          <P align=left><span class="style6"><B><B><img src="help/patratelul.gif" width="13" height="12"></B></B> <strong><span class="style24">LindRoof</span> va ofera posibilitatea de a beneficia de un mediu asemanator  AutoCAD&reg;, regasindu-va stilul de lucru &icirc;ntr-un spatiu de munca familiar. Beneficiind de o biblioteca de elemente grafice (linie, polilinie,  arc de cerc, patrat...), de goluri ( dreptunghi, cerc, ..), <span class="style24">LindRoof</span> v-a accelera considerabil generarea desenelor.</strong></span></P>
+          <p align="left" class="style8"><img src="help/patratelul.gif" width="13" height="12"> Toate facilitatile care au fost implementate au rolul de a accelera si eficientiza lucrul cu LindRoof, crearea initiala a unui model exact fiind foarte importanta deoarece LindRoof va genera apoi secvential optimizarea acoperisului si raportul final. </p>
+          <p align="left"> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style8">Cu LindRoof sunteti &icirc;n masura sa va modelati cladirile &icirc;n plan, folosind instrumente profesionale. Utilizatorul poate folosi si comenzile Autocad care sunt aplicabile si entitatilor LindRoof. </span></p>          </TD>
+        <TD width="282" align=middle vAlign=center bordercolor="#0099FF" class=coolText><img src="help/tabla.JPG" width="300" height="231"></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=752 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR bordercolor="#000000">
+        <TD height=17 colSpan=3 vAlign=top bgcolor="#00CCFF"><div align="justify"><span class="style5"> Calculul Optimizat al panourilor </span></div></TD>
+      </TR>
+      <TR>
+        <TD width=249 height=91 vAlign=top bordercolor="#0000FF" bgcolor="#FFFFFF"><img src="help/a%202%20a%20sectiune.JPG" width="248" height="175"></TD>
+        <TD width="497" colSpan=2 vAlign=top class=coolTextCtrl>
+          <P class=coolText align=left><B>              <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style6"><span class="style24">LindRoof</span> dispune de  o optimizare a panourilor automata cat si de una manuala.</span></B></P>
+          <P class=coolText align=left><span class="style6"><B> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span><span class="style7"> </span>
+  
+
+   C&acirc;nd modelarea geometrica a fost terminata, poate fi lansata operatiunea de selectare obiecte (Panou, Streasina, Coama, Fronton, Dolie, Bordura Calcan, Coama Inclinata, Semicoama, Fronton Inclinat ) si optimizare panouri .
+  
+
+   Beneficiind de o librarie cu aceste obiecte selectia lor se va face foarte usor si rapid pe desen. Programul va genera automat extrasele de materiale plus accesorii si costul lucrarii. </B></span><span class="style6"><B><br>
+   <br>
+            </B></span><BR>
+        <I></I></P>        </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=753 border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff>
+    <!--Advance Beton : integrat complet sub AutoCAD&reg; si usor de utilizat-->
+    <TBODY>
+      <TR bordercolor="#000000">
+        <TD colspan="2" bgcolor="#00CCFF"><div align="left"><span class="style8">Planul de executie </span></div></TD>
+      </TR>
+      <TR>
+        <TD vAlign=top 
+    background="Advance Beton  program de proiectare constructii beton armat_files/linecont.gif" 
+    colSpan=2 height=1><IMG height=1 
+      src="Advance Beton  program de proiectare constructii beton armat_files/linecont.gif" 
+      width=1></TD>
+      </TR>
+      <TR>
+        <TD width="437" height=193 vAlign=center class=coolText>        <p align="left"><span class="style6"><B><span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span></B><strong> Pentru a accelera finalizarea planurilor de executie, LindRoof ofera o paleta vasta de instrumente : </strong></span></p>
+          <div align="left">
+            <table width="437" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <th scope="row"><div align="left" class="style6 style18"><img src="help/sageata.gif" width="9" height="9"> cote asociative si dinamice</div></th>
+              </tr>
+              <tr>
+                <th scope="row"><div align="left" class="style6 style18"><img src="help/sageata.gif" width="9" height="9"> grid cotat cu snap ( F3 - OSNAP ) </div></th>
+              </tr>
+              <tr>
+                <th scope="row"><div align="left" class="style6"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> o permanenta informatie despre obiect </div></th>
+              </tr>
+              <tr>
+                <th scope="row"><div align="left" class="style6"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> comenzi rapide din consola (l -linie, pl - polilinie, p - panou, tr - trim ... ) </div></th>
+              </tr>
+              <tr>
+                <th scope="row"><div align="left" class="style6"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> desenare din mouse sau din consola </div></th>
+              </tr>
+            </table>
+          </div>          <p align="left" class="style8"><img src="help/patratelul.gif" width="13" height="12"> <span class="style24">Lindroof</span> poate fi adaptat stilului dumneavoastra de lucru. </p>           
+          <div align="left"><span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style8">Cu LindRoof sunteti &icirc;n masura sa va modelati cladirile &icirc;n plan, folosind instrumente profesionale. Utilizatorul poate folosi si comenzile Autocad care sunt aplicabile si entitatilor <span class="style24">LindRoof</span>. </span><BR>
+          </div>
+        <DIV align=justify></DIV></TD>
+        <TD width="310" align=middle vAlign=center bordercolor="#0099FF" class=coolText><img src="help/prima%20sectiune%201.JPG" width="310" height="318"></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=752 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR bordercolor="#000000">
+        <TD height=17 colSpan=3 vAlign=top bgcolor="#00CCFF"><div align="justify"><span class="style5"> Gestionarea Documentelor ( Rapoartelor ) </span></div></TD>
+      </TR>
+      <TR>
+        <TD width=205 height=91 vAlign=top bordercolor="#0099FF" bgcolor="#FFFFFF"><img src="help/tabla%202.JPG" width="205" height="147"></TD>
+        <TD width="541" colSpan=2 vAlign=top class=coolTextCtrl>
+          <P class=coolText align=justify><B> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style6"> Pornind de la crearea planurilor de executie, LindRoof poate estima deasemenea : consumul de tabla Lindab, consumul de accesorii… stocate &icirc;ntr-un raport pot fi salvate si printate.</span></B></P>
+          <P class=coolText align=justify><span class="style6"><B> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span><span class="style7"> </span> C&acirc;nd modelarea geometrica a fost terminata, poate fi lansata operatiunea de selectare obiecte (Streasina, Coama, Fronton, Dolie, Bordura Calcan, Coama Inclinata, Semicoama, Fronton Inclinat ) si optimizare panouri . Beneficiind de o librarie cu aceste obiecte selectia lor se va face foarte usor si rapid pe desen. Programul va genera automat extrasele de materiale si costul lucrarii.</B></span><span class="style6"><B><br>
+</B></span>
+        <I></I></P></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=752 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR>
+        <TD height=17 vAlign=top bordercolor="#999999" bgcolor="#00CCFF"><div align="justify"><span class="style5"> 1. Instalare LindRoof </span></div></TD>
+      </TR>
+      <TR>
+        <TD vAlign=top bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+          <P class=coolText align=justify><B> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style6"> Doar se ruleaza instal.exe si se alege directorul in care se instaleaza. De retinut ca raportul originalul ( raportul in Excel ) sa fie in radacina  c:\ .</span></B></P>
+          <P class=coolText align=justify><span class="style6"><B><br>
+        </B></span> <I></I></P></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=752 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR>
+        <TD height=17 vAlign=top bordercolor="#CCCCCC" bgcolor="#00CCFF"><div align="justify"><span class="style5"> 2. Upgrade LindRoof </span></div></TD>
+      </TR>
+      <TR>
+        <TD vAlign=top bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+          <P class=coolText align=justify><B> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style6"> Se realizeaza exact ca o instalare , nu necesita decat o instalare peste versiunea veche.</span></B></P>
+        <P class=coolText align=justify>&nbsp;</P></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=752 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR>
+        <TD height=17 vAlign=top bordercolor="#CCCCCC" bgcolor="#00CCFF"><div align="justify"><span class="style5"> 3. Comenzi active ( se introduc in consola progamului ) </span></div></TD>
+      </TR>
+      <TR>
+        <TD vAlign=top bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+          <P class=coolText align=justify><B> <span class="style8"><img src="help/patratelul.gif" width="13" height="12"></span> <span class="style6"> Aceste comenzi  au menirea de a usura lucrul si de a mari viteza de lucru. Vom prezenta comenzile si rezultatul lor : </span></B></P>
+          <table width="734" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="734" scope="row"><div align="left" class="style6 style18"><img src="help/sageata.gif" width="9" height="9"> &quot;L&quot; sau &quot;linie&quot; - desenere linie </div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style6 style18"><img src="help/sageata.gif" width="9" height="9"> &quot;PL&quot; sau &quot;polilinie&quot; - desenare poli-linie </div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style6"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span>&quot;TR&quot; sau &quot;trim&quot;- se seleteaza modul &quot;Filetare&quot; , acest mod este folosit in cazul in care dorim taiere a 2 linii in punctul de intersectie, laturile ce vor ramane vor fi cele pe care le vom selecta, restul va fi decupat din punctul de intersectie </div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style6"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;P&quot; sau &quot;panou&quot; - va determian modul PANOU, cea ce inseamna ca trebuiesc selectate ( pe rand ) laturile panoului </div></th>
+            </tr>
+            <tr>
+              <th scope="row">&nbsp;</th>
+            </tr>
+        </table>          </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <TABLE width=753 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR>
+        <TD width="749" height=17 vAlign=top bordercolor="#FFFFFF" bgcolor="#00CCFF"><div align="justify"><span class="style5"> 4. Ce comenzi realizeaza Icoanele LindRoof </span></div></TD>
+      </TR>
+      <TR>
+        <TD height=801 vAlign=top bordercolor="#FFFFFF" bgcolor="#FFFFFF"><span class="style6 style18"><b></b></span>
+          <table width="749" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="749" bgcolor="#CCCCCC" scope="row"><span class="style6 style18"><b> <span class="style6"> Meniu FISIER </span></b></span></th>
+            </tr>
+          </table>
+          <table width="747" height="135" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <th width="747" scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Nou&quot; - creeaza un nou document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Deschide&quot; - deschide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Inchide&quot; - inchide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza&quot; - salveaza document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza ca...&quot; - salveaza document LindRoof sub alt nume </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Importa DXF&quot; - importa document dxf in program </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Imprimare&quot; - imprimare raport LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Exam.inaintea impr.&quot; - examinare raport inainte de imprimare </span></div></th>
+            </tr>
+            <tr>
+              <th height="15" scope="row"><div align="left" class="style18">
+                <div align="left"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Iesire&quot; - iesire program LindRoof </span></div>
+              </div>                </th>
+            </tr>
+          </table>          
+          <span class="style6 style18"><b></b></span>
+          <table width="749" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="749" bgcolor="#CCCCCC" scope="row"><span class="style6 style18"><b> <span class="style6"> <b>Meniu EDITARE </b></span></b></span></th>
+            </tr>
+          </table>
+          <table width="748" height="153" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <th width="748" scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Nou&quot; - creeaza un nou document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Deschide&quot; - deschide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Inchide&quot; - inchide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza&quot; - salveaza document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza ca...&quot; - salveaza document LindRoof sub alt nume </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Importa DXF&quot; - importa document dxf in program </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Imprimare&quot; - imprimare raport LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Exam.inaintea impr.&quot; - examinare raport inainte de imprimare </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18">
+                  <div align="left"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Iesire&quot; - iesire program LindRoof </span></div>
+              </div></th>
+            </tr>
+          </table>
+          <span class="style6 style18"><b></b></span>
+          <table width="749" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="749" bgcolor="#CCCCCC" scope="row"><span class="style6 style18"><b> <span class="style6"> <b>Meniu SETARI </b></span></b></span></th>
+            </tr>
+          </table>
+          <table width="749" height="154" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <th width="749" scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Nou&quot; - creeaza un nou document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Deschide&quot; - deschide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Inchide&quot; - inchide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza&quot; - salveaza document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza ca...&quot; - salveaza document LindRoof sub alt nume </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Importa DXF&quot; - importa document dxf in program </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Imprimare&quot; - imprimare raport LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Exam.inaintea impr.&quot; - examinare raport inainte de imprimare </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18">
+                  <div align="left"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Iesire&quot; - iesire program LindRoof </span></div>
+              </div></th>
+            </tr>
+          </table>          
+          <span class="style6 style18"><b></b></span>
+          <table width="749" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="749" bgcolor="#CCCCCC" scope="row"><span class="style6 style18"><b> <span class="style6"> <b> Meniu FERESTRE </b></span></b></span></th>
+            </tr>
+          </table>
+          <table width="749" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="749" scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Nou&quot; - creeaza un nou document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Deschide&quot; - deschide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Inchide&quot; - inchide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza&quot; - salveaza document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza ca...&quot; - salveaza document LindRoof sub alt nume </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Importa DXF&quot; - importa document dxf in program </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Imprimare&quot; - imprimare raport LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Exam.inaintea impr.&quot; - examinare raport inainte de imprimare </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18">
+                  <div align="left"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Iesire&quot; - iesire program LindRoof </span></div>
+              </div></th>
+            </tr>
+          </table>          
+          <span class="style6 style18"><b></b></span>
+          <table width="749" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="749" bgcolor="#CCCCCC" scope="row"><span class="style6 style18"><b> <span class="style6"> <b>Meniu AJUTOR </b></span></b></span></th>
+            </tr>
+        </table>        
+          <table width="749" height="147" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <th width="749" scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Nou&quot; - creeaza un nou document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Deschide&quot; - deschide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Inchide&quot; - inchide document LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza&quot; - salveaza document Lindroof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Salveaza ca...&quot; - salveaza document LindRoof sub alt nume </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Importa DXF&quot; - importa document dxf in program </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Imprimare&quot; - imprimare raport LindRoof </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Exam.inaintea impr.&quot; - examinare raport inainte de imprimare </span></div></th>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left" class="style18">
+                  <div align="left"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> &quot;Iesire&quot; - iesire program LindRoof </span></div>
+              </div></th>
+            </tr>
+          </table></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <p>&nbsp;</p>
+  <TABLE width=752 
+border=1 cellPadding=0 cellSpacing=0 bordercolor="#FFFFFF" bgColor=#ffffff 
+summary="Advance - Beton : Program pentru proiectare beton armat sub AutoCAD">
+    <!--GRAITEC, Autodesk, Advance, Arche, Effel, Nemetschek, AutoCAD, CAD, RAM, Software, HyperSteel, constructii civile, cladire, constructie, analiza structurala, beton, beton armat, lemn, t&acirc;mplarie, otel, lucrare, training, Software, 3D, program de proiectare beton armat, program de calcul cu elemente finite, analiza cu elemente finite, program de proiectare 3d, soft proiectare cladiri, program de proiectare, program de proiectare arhitecturala, soft proiectare constructii si arhitectura, aplicatii software personalizate, program profesional de proiectare, hvac design software, program de proiectare constructii, program pentru proiectarea podurilor, programe software pentru CAD, pod, civil, structura, proiectare, inginer, din lemn, prefabricat, precomprimat, pretensionat, post-tensionat, constructie, arhitecti, arhitectural, personalizat, coloana, grinda, moment de inertie, dezvoltator, dezvoltare, proiectare, eurocode, deformatie specifica, tensiune, curbura, rigiditate, deschidere limita fisuri, torsiune, st&acirc;lp scurt, st&acirc;lp lung, fundatie, pereti de sustinere, perete, dala, fereastra, usa, fundatie continua, fundatie izolata, pcaStructurePoint, SuperCONCRETE, Structural Software, ADAPT-Builder, POSTEN, CONCRET, ezFRAME, SAFI Concrete, ALASHKI, GaLa, S-Frame, FEA, SAP, TEKLA, program Autocad, programe software performante, programe software pentru proiectare, programe 3D, proiectare asistata de calculator, proiectare asistata de calculator pentru constructii metalice, fisiere NC, DIN 1356-10, DIN 1045, AS3600, AS2870/3600, NBN A 24-302, NBN A 24-303, CSA A23, ACI, CSA A23, NF P 02-016, NF A 35-016/024, NEN 6008, DM96, SS-ENV 10-080, Nps500, PN-B-03264, PN-B-03264, STAS 438/1,3-89, P 59-86, SIA 162, SIA-->
+    <!--Av&acirc;nd la baza tehnologia ObjectARX, Advance Beton este un program accesibil care automatizeaza procesul de desenare &icirc;n AutoCAD pentru toate tipurile de desene.-->
+    <TBODY>
+      <TR>
+        <TD height=17 vAlign=top bordercolor="#FFFFFF" bgcolor="#00CCFF"><div align="justify"><span class="style5"> 5. Alte informatii utile despre program </span></div></TD>
+      </TR>
+      <TR>
+        <TD vAlign=top bordercolor="#FFFFFF" bgcolor="#FFFFFF">          <div align="left">
+          <p><B> <img src="help/patratelul.gif" width="13" height="12"> <span class="style6"> Se realizeaza exact ca o instalare , nu necesita decat o instalare peste versiunea veche.</span></B></p>
+          <p>&nbsp;</p>
+        </div></TD>
+      </TR>
+      <TR>
+        <TD height=3 vAlign=top><div align="center">
+          <p><img src="help/linie%20albastra.gif" width="746" height="10">          </p>
+          <table width="749" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+            <tr>
+              <th width="749" height="17" bordercolor="#00CCFF" bgcolor="#00CCFF" scope="row"><div align="center"><span class="style6 style18"><b> <span class="style6"> <b>Exemplu Calcul Acoperis </b></span></b></span></div></th>
+            </tr>
+          </table>
+          <table width="749" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+            <tr>
+              <th width="749" bordercolor="#00CCFF" bgcolor="#CCCCCC" scope="row"><div align="left"><span class="style6 style18"><b> <span class="style6"> <b>Mod Lucru : Schita </b></span></b></span></div></th>
+            </tr>
+          </table>
+        </div></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+  <table width="749" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+    <tr>
+      <th width="372" height="34" scope="row"><div align="left" class="style18">
+        <p class="style20"><img src="help/sageata.gif" width="9" height="9"> - se deseneaza figura vazuta de sus a acoperisului , se apasa butonul polilinie sau se tasteaza &quot;<span class="style24">pl</span>&quot; in consola si se da ENTER, se introduc punctele poliliniei cu ajutorul mouseului sau cu ajutorul consolei</p>
+        <table width="358" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th width="358" scope="row"><div align="left"><span class="style24">@100,100</span>- returneaza o linie ce are punctul de sfarsit fata de start  decalat cu coordonatele &quot;100,100&quot; </div></th>
+          </tr>
+          <tr>
+            <th scope="row"><div align="left"><span class="style24">100 </span>- valoare simpla &quot;100&quot;  va trasa o linie de lungime &quot;100&quot; urmand ca apoi sa alegem prin miscarea mouse-ului directia ei </div></th>
+          </tr>
+          <tr>
+            <th scope="row"><div align="left"><span class="style24">100&lt;45</span> - va trasa o linie de marime &quot;100&quot; sub un unghi de &quot;45&quot;</div></th>
+          </tr>
+        </table>
+      </div></th>
+      <th width="371" rowspan="3" bordercolor="#00CCFF" scope="row"><img src="file:///C|/Documents%20and%20Settings/Luca%20Tiberiu/Desktop/Help%20LindRoof/help/Mod%20lucru%20%20schita.JPG" width="371" height="466"></th>
+    </tr>
+    <tr>
+      <th scope="row"><div align="left" class="style18"><span class="style20"><img src="help/sageata.gif" width="9" height="9"> - se definesc laturile acoperisului selectand pentru fiecare latura cate o muchie caracteristica, fiecare muchie are o anumita culoare ptr o mai buna distinctie, selectia se face : mai intai  pe desen se selecteaza muchia apoi in meniul ( jos stanga - cel Roll Over ) se selecteaza tipul de muchie ( Coama, Streasina, Fronton, Dolie, Coama Inclinata .... )</span></div></th>
+    </tr>
+    <tr>
+      <th scope="row"><div align="left" class="style18">
+        <p class="style20"><img src="help/sageata.gif" width="9" height="9"> - se creeaza panoul cu ajutorul comenzii &quot;<span class="style24">p</span>&quot; sau a butonului &quot;<span class="style24">panou</span>&quot;, selectia se va face prin selectarea laturilor panoului pe rand, o data cu selectia unei laturi calculatorul va realiza o hasura ce va indica suprafata panoului ce s-a realizat pana in acel moment, Incheiere unui panou se realizeaza prin click dreapta mouse, dupa ce am terminat un text va apare sub forma de &quot;<span class="style24">PANOUL Nr. ..</span>.&quot; ce v-a marca sfarsitul definirii panoului, ptr revenire la creere panou se apasa din nou mouse dreapta ( mouse dreapta - activeaza ultima comanda, ceea ce la noi in exemplu acum inseamna &quot;<span class="style24">panou</span>&quot; sau se scrie din nou in consola &quot;<span class="style24">p</span>&quot; si se da enter ), se repeta operatia pana se definesc toate panourile acoperisului </p>
+        <p class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se trece la modul de lucru : Panouri</p>
+      </div></th>
+    </tr>
+    <tr>
+      <th height="16" colspan="2" scope="row"><div align="center"><img src="help/linie%20albastra.gif" width="694" height="1"></div></th>
+    </tr>
+  </table>
+  <table width="749" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+    <tr>
+      <th width="749" bordercolor="#00CCFF" bgcolor="#CCCCCC" scope="row"><div align="left"><span class="style6 style18"><b> <span class="style6"> <b>Mod Lucru : Panouri </b></span></b></span></div></th>
+    </tr>
+  </table>
+  <table width="749" height="1021" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+    <tr bordercolor="#FF0000">
+      <th rowspan="5" bordercolor="#00CCFF" scope="row"><div align="left" class="style18"><img src="file:///C|/Documents%20and%20Settings/Luca%20Tiberiu/Desktop/Help%20LindRoof/help/Mod%20lucru%20%20panouri.JPG" width="361" height="467"></div>        </th>
+      <th width="399" bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se selecteaza panoul din lista ascunsa, cea ce inseamna ca vom opera pe acel panou urmatorele operatiuni ( in lista ascunsa vor apare toate panourile pe care le-am definit in Mod de Lucru : Schita, daca s-a intamplat a se omite un panou se poate reveni la mod de lucru : Schita si se se defineste panoul cu pricinal ) </span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se alege &quot;<span class="style24">muchia de desfasurare</span>&quot; ( de obicei este aleasa streasina panoului - culoarea verde pe desen ), dupa selectie muchie de desfasurare calculatorul va roti desenul astfel incat muchia de desfasurare sa fie orizontala ( se face aceasta operatiune pentru o vizualizare si intelege cat mai buna a desenului si a operatiunii de optimizare ) </span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - dupa selectie &quot;<span class="style24">muchie de desfasurare</span>&quot;, va trebui sa specificam inclinatia acoperisului, fie ca este in &quot;<span class="style24">panta</span>&quot; (%) sau &quot;<span class="style24">unghi</span>&quot; ( grade centesimale), se introduce valoarea corespunzatoare in casuta dupa care se da Enter, calculatorul va desfasura automat panoul in functie de ce am ales : panta sau unghi</span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"> <span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - urmeaza a se realiza &quot;<span class="style24">panotarea acoperisului</span>&quot;, se realizeaza prin simpla apasare buton &quot;<span class="style24">Optimizare Panou</span>&quot;, optimizare ce este vizibila pe ecran </span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th height="157" bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - exista optimizare cu &quot;<span class="style24">Optimizare Panouri Standard</span>&quot; ceea ce inseamna ca taieturile se fac pe module de 400, sau &quot;<span class="style24">Optimizare Panouri</span>&quot; o optimizare pe linia acoperisului ce taie tabla exact la linia acoperisului, dupa ce ce realizeaza optimizarea panoului se trece la o eventuala ( daca e nevoie - in cazul unor goluri sau cazuri speciale ) editare a panourilor ( taiere, mutare, marire , micsorare) </span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left" class="style18">
+          <div align="left"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se modifica , daca e nevoie, anumite foi de tabla, in felul urmator : </span></div>
+      </div></th>
+      <th rowspan="5" bordercolor="#00CCFF" scope="row"><div align="right"><span class="style18"><img src="file:///C|/Documents%20and%20Settings/Luca%20Tiberiu/Desktop/Help%20LindRoof/help/Mod%20lucru%20%20panouri%20taiere.jpg" width="398" height="519"></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se selecteaza foaia de tabla de modificat facand click pe una dintre extremitati pe care vrem sa o modificam (sus sau jos), dupa ce s-a selectat foaia, partea care se modifica ar trebui sa fie cu linie punctata, se mareste sau micsoreaza foaia cu ajutorul tastelor directionale (sus, jos)</span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left">
+        <p class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> <span class="style18">- pentru o modificare a foii cu &quot;1 cm&quot; se tasteaza simplu <span class="style24">sageata sus</span> sau <span class="style24">sageata jos </span>( in functie de diretia in care dorim sa modificam ) , pentru o marire cu &quot;10 cm&quot; a foii se tasteaza sagetile combinate cu tasta &quot;<span class="style24">CTRL</span>&quot;, pentru o marire cu &quot;100 cm&quot; a foii se tasteaza sagetile combinate cu tasta &quot;<span class="style24">SHIFT</span>&quot;</span></p>
+        <p class="style18"><span class="style25">de exemplu</span> : daca am selectat muchia de sus a foii, si dorim sa marim foaia cu &quot;234 cm&quot; facem urmatoarele operatiuni : se apasa combinatia de taste &quot;<span class="style24">SHIFT + sageata sus</span>&quot; - de 2 ori ; se apasa combinatia de taste &quot;<span class="style24">CTRL + sageata sus</span>&quot; de 3 ori ; se apasa <span class="style24">sageata sus de 4 ori</span>, obtinand o marire a panoului cu 4 cm - rezultatul fiind 2x100cm + 3x10cm + 4x1cm = 234cm </p>
+        <p class="style18">&nbsp;</p>
+      </div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th bordercolor="#FFFFFF" scope="row"><div align="left"><span class="style18"><span class="style20"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se genereaza raportul final pentru panoul in cauza</span></span></div></th>
+    </tr>
+    <tr bordercolor="#FF0000">
+      <th height="44" bordercolor="#FFFFFF" scope="row"><div align="left" class="style6"><span class="style6 style18"><img src="help/sageata.gif" width="9" height="9"></span> - se trimite raportul final ( fisierul excel ) catre <span class="style24">Lindab</span> .</div>        </th>
+    </tr>
+    <tr>
+      <th colspan="2" scope="row"><div align="center">
+        <p>&nbsp;</p>
+        <p><img src="help/linie%20albastra.gif" width="715" height="8"></p>
+      </div></th>
+    </tr>
+  </table>
+  <table width="703" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <th width="368" scope="row"><img src="file:///C|/Documents%20and%20Settings/Luca%20Tiberiu/Desktop/Help%20LindRoof/help/lindroof%20mic.JPG" width="255" height="37"></th>
+      <td width="335">&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row"><span class="style22"> TOATE DREPTURILE REZERVATE</span></th>
+      <td><div align="right" class="style20 style26">inginer Nae Laurentiu</div></td>
+    </tr>
+    <tr>
+      <th height="19" scope="row">&nbsp;</th>
+      <td><div align="right"><span class="style20 style26"> inginer Luca Tiberiu </span></div></td>
+    </tr>
+  </table>
+  <table width="748" height="39" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <th width="748" height="11" scope="row"><div align="center"><img src="help/linie%20albastra.gif" width="694" height="1"></div></th>
+    </tr>
+    <tr>
+      <th height="15" scope="row"><div align="center"><span class="style19">Lucr&acirc;nd cu <span class="style18">Lindroof</span> se evita pierderile de timp datorate optimizarii manuale si se mareste productivitatea. </span></div></th>
+    </tr>
+    <tr>
+      <th scope="row"><div align="center"><img src="help/linie%20albastra.gif" width="737" height="13"></div></th>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

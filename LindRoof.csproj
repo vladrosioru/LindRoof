@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>LindRoof</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="LindRoof.GraphicEnvironment.darkred.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.violet.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.lightorange.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.blue.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.brown.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.green.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.magenta.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.orange.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.pink.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.red.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.yellow.bmp" />
+    <None Remove="LindRoof.OfficeMenu.OfficeMenus.bmp" />
+    <None Remove="LindRoof.SplashScreen.sync.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.bbb.bmp" />
+    <None Remove="LindRoof.GraphicEnvironment.gray.bmp" />
+    <None Remove="LindRoof.App.ico" />
+    <None Remove="LindRoof.GraphicEnvironment.Rectangle.cur" />
+    <None Remove="LindRoof.TextualEnvironment.sfironsidescondensed.ttf" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.darkred.bmp" LogicalName="LindRoof.GraphicEnvironment.darkred.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.violet.bmp" LogicalName="LindRoof.GraphicEnvironment.violet.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.lightorange.bmp" LogicalName="LindRoof.GraphicEnvironment.lightorange.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.blue.bmp" LogicalName="LindRoof.GraphicEnvironment.blue.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.brown.bmp" LogicalName="LindRoof.GraphicEnvironment.brown.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.green.bmp" LogicalName="LindRoof.GraphicEnvironment.green.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.magenta.bmp" LogicalName="LindRoof.GraphicEnvironment.magenta.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.orange.bmp" LogicalName="LindRoof.GraphicEnvironment.orange.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.pink.bmp" LogicalName="LindRoof.GraphicEnvironment.pink.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.red.bmp" LogicalName="LindRoof.GraphicEnvironment.red.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.yellow.bmp" LogicalName="LindRoof.GraphicEnvironment.yellow.bmp" />
+    <EmbeddedResource Include="LindRoof.OfficeMenu.OfficeMenus.bmp" LogicalName="LindRoof.OfficeMenu.OfficeMenus.bmp" />
+    <EmbeddedResource Include="LindRoof.SplashScreen.sync.bmp" LogicalName="LindRoof.SplashScreen.sync.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.bbb.bmp" LogicalName="LindRoof.GraphicEnvironment.bbb.bmp" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.gray.bmp" LogicalName="LindRoof.GraphicEnvironment.gray.bmp" />
+    <EmbeddedResource Include="LindRoof.App.ico" LogicalName="LindRoof.App.ico" />
+    <EmbeddedResource Include="LindRoof.GraphicEnvironment.Rectangle.cur" LogicalName="LindRoof.GraphicEnvironment.Rectangle.cur" />
+    <EmbeddedResource Include="LindRoof.TextualEnvironment.sfironsidescondensed.ttf" LogicalName="LindRoof.TextualEnvironment.sfironsidescondensed.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Core" />
+    <Reference Include="Interop.SHDocVw">
+      <HintPath>..\extracted\Interop.SHDocVw.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AxInterop.SHDocVw">
+      <HintPath>..\extracted\AxInterop.SHDocVw.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <!-- Native libraries: must sit next to the exe (output root) for DllImport to resolve. -->
+  <ItemGroup>
+    <None Include="native\gpc.dll" Link="gpc.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="native\msvcr71.dll" Link="msvcr71.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <!-- Companion runtime data the app reads from Application.StartupPath. -->
+  <ItemGroup>
+    <None Include="runtime\date.ver" Link="date.ver" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="runtime\lindroof.dbf" Link="lindroof.dbf" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="runtime\help.htm" Link="help.htm" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="runtime\sfironsidescondensed.ttf" Link="sfironsidescondensed.ttf" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="runtime\help\**\*" Link="help\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
