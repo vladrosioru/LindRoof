@@ -14,7 +14,7 @@
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Icons\app.ico</ApplicationIcon>
     <RootNamespace />
   </PropertyGroup>
   <ItemGroup>
@@ -22,42 +22,93 @@
     <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="LindRoof.GraphicEnvironment.darkred.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.violet.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.lightorange.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.blue.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.brown.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.green.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.magenta.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.orange.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.pink.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.red.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.yellow.bmp" />
-    <None Remove="LindRoof.OfficeMenu.OfficeMenus.bmp" />
-    <None Remove="LindRoof.SplashScreen.sync.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.bbb.bmp" />
-    <None Remove="LindRoof.GraphicEnvironment.gray.bmp" />
-    <None Remove="LindRoof.App.ico" />
-    <None Remove="LindRoof.GraphicEnvironment.Rectangle.cur" />
-    <None Remove="LindRoof.TextualEnvironment.sfironsidescondensed.ttf" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.darkred.bmp" LogicalName="LindRoof.GraphicEnvironment.darkred.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.violet.bmp" LogicalName="LindRoof.GraphicEnvironment.violet.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.lightorange.bmp" LogicalName="LindRoof.GraphicEnvironment.lightorange.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.blue.bmp" LogicalName="LindRoof.GraphicEnvironment.blue.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.brown.bmp" LogicalName="LindRoof.GraphicEnvironment.brown.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.green.bmp" LogicalName="LindRoof.GraphicEnvironment.green.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.magenta.bmp" LogicalName="LindRoof.GraphicEnvironment.magenta.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.orange.bmp" LogicalName="LindRoof.GraphicEnvironment.orange.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.pink.bmp" LogicalName="LindRoof.GraphicEnvironment.pink.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.red.bmp" LogicalName="LindRoof.GraphicEnvironment.red.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.yellow.bmp" LogicalName="LindRoof.GraphicEnvironment.yellow.bmp" />
-    <EmbeddedResource Include="LindRoof.OfficeMenu.OfficeMenus.bmp" LogicalName="LindRoof.OfficeMenu.OfficeMenus.bmp" />
-    <EmbeddedResource Include="LindRoof.SplashScreen.sync.bmp" LogicalName="LindRoof.SplashScreen.sync.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.bbb.bmp" LogicalName="LindRoof.GraphicEnvironment.bbb.bmp" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.gray.bmp" LogicalName="LindRoof.GraphicEnvironment.gray.bmp" />
-    <EmbeddedResource Include="LindRoof.App.ico" LogicalName="LindRoof.App.ico" />
-    <EmbeddedResource Include="LindRoof.GraphicEnvironment.Rectangle.cur" LogicalName="LindRoof.GraphicEnvironment.Rectangle.cur" />
-    <EmbeddedResource Include="LindRoof.TextualEnvironment.sfironsidescondensed.ttf" LogicalName="LindRoof.TextualEnvironment.sfironsidescondensed.ttf" />
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.darkred.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.darkred.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.violet.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.violet.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.lightorange.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.lightorange.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.blue.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.blue.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.brown.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.brown.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.green.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.green.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.magenta.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.magenta.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.orange.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.orange.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.pink.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.pink.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.red.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.red.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.yellow.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.yellow.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\OfficeMenu\LindRoof.OfficeMenu.OfficeMenus.bmp">
+      <LogicalName>LindRoof.OfficeMenus.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Splash\LindRoof.SplashScreen.sync.bmp">
+      <LogicalName>LindRoof.SplashScreen.sync.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.bbb.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.bbb.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.gray.bmp">
+      <LogicalName>LindRoof.GraphicEnvironment.gray.bmp</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GraphicEnvironment\LindRoof.GraphicEnvironment.Rectangle.cur">
+      <LogicalName>LindRoof.GraphicEnvironment.Rectangle.cur</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TextualEnvironment\LindRoof.TextualEnvironment.sfironsidescondensed.ttf">
+      <LogicalName>LindRoof.TextualEnvironment.sfironsidescondensed.ttf</LogicalName>
+    </EmbeddedResource>
+    <None Include="Resources\Icons\app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.MainWindow.resx">
+      <LogicalName>LindRoof.MainWindow.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.ListOfPanels.resx">
+      <LogicalName>LindRoof.ListOfPanels.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.Help.resx">
+      <LogicalName>LindRoof.Help.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.GraphicTableForPanels.resx">
+      <LogicalName>LindRoof.GraphicTableForPanels.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.GraphicTable.resx">
+      <LogicalName>LindRoof.GraphicTable.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.Document.resx">
+      <LogicalName>LindRoof.Document.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.ConsoleWindow.resx">
+      <LogicalName>LindRoof.ConsoleWindow.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.SaveDocument.resx">
+      <LogicalName>LindRoof.SaveDocument.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Forms\LindRoof.SplashForm.resx">
+      <LogicalName>LindRoof.SplashForm.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Toolbar\LindRoof.toolbar.ToolBarDockArea.resx">
+      <LogicalName>LindRoof.toolbar.ToolBarDockArea.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Toolbar\LindRoof.toolbar.ToolBarDockHolder.resx">
+      <LogicalName>LindRoof.toolbar.ToolBarDockHolder.resources</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Design" />
@@ -65,12 +116,12 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Core" />
     <Reference Include="Interop.SHDocVw">
-      <HintPath>..\extracted\Interop.SHDocVw.dll</HintPath>
+      <HintPath>lib\Interop.SHDocVw.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
       <Private>True</Private>
     </Reference>
     <Reference Include="AxInterop.SHDocVw">
-      <HintPath>..\extracted\AxInterop.SHDocVw.dll</HintPath>
+      <HintPath>lib\AxInterop.SHDocVw.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
       <Private>True</Private>
     </Reference>
